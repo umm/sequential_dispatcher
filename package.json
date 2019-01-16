@@ -1,6 +1,6 @@
 {
   "name": "@umm/sequential_dispatcher",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Dispatch some method as sequential",
   "homepage": "https://github.com/umm/sequential_dispatcher",
   "bugs": {
@@ -24,7 +24,8 @@
     "Assets"
   ],
   "dependencies": {
-    "@umm/scripts": "umm/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/unirx": "umm/unirx#^2.0.0"
   },
   "devDependencies": {}
 }
