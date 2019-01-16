@@ -1,0 +1,15 @@
+{
+    "name": "umm@sequential_dispatcher",
+    "references": [
+        "umm@unirx",
+        "umm@unirx-Async"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
