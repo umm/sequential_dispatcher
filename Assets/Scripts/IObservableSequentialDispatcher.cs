@@ -74,9 +74,9 @@ namespace UnityModule
         public static IObservable<T> CreateSequenceAsObservable<T>(this IObservableSequentialDispatcher<T> self)
         {
             return self.TriggerSequenceAsObservable()
-                .SelectMany(self.PreDispatchAsObservable)
-                .SelectMany(self.DispatchAsObservable)
-                .SelectMany(self.PostDispatchAsObservable);
+                .SelectMany(x => self.PreDispatchAsObservable(x))
+                .SelectMany(x => self.DispatchAsObservable(x))
+                .SelectMany(x => self.PostDispatchAsObservable(x));
         }
     }
 }
