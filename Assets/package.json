@@ -1,0 +1,23 @@
+{
+  "name": "dev.upm-packages.sequential_dispatcher",
+  "displayName": "Singleton AudioListener",
+  "version": "1.1.0",
+  "unity": "2019.3",
+  "description": "Dispatch some method as sequential",
+  "author": {
+    "name": "Tetsuya Mori",
+    "url": "https://me.monry.dev/",
+    "email": "monry84@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "category": "",
+  "dependencies": {
+    "jp.cysharp.unirx": "7.1.0",
+    "jp.cysharp.unitask": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umm/sequential_dispatcher"
+  }
+}
