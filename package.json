@@ -1,6 +1,6 @@
 {
   "name": "@umm/sequential_dispatcher",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Dispatch some method as sequential",
   "homepage": "https://github.com/umm/sequential_dispatcher",
   "bugs": {
