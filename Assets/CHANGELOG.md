@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 2020-03-16
+
+v1.1.2
+
+* Fix package display name
+
 ## [1.1.1] - 2020-03-16
 
 v1.1.1
